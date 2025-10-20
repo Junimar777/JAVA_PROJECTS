@@ -80,7 +80,7 @@ public class Main {
         for(Contact c: contacts){
             if (c.name.contains(search) || c.phone.contains(search)){
                 System.out.println("found contact: " + c);
-                found = true;
+                found = true;//pag may nahanap marked as true
             }
 
         }
